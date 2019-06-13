@@ -1,0 +1,22 @@
+<!-- test block -->
+<div class="test">
+  <div class="test__title">
+    Image background
+  </div>
+  <h2>
+    img tag
+  </h2>
+  <img src="/img/android-chrome-192x192.png" alt="img" />
+  <br />
+  <h2>
+    SVG icons from svg-prite
+  </h2>
+  <svg class="ico-svg ico-svg--out" width="40" height="40" fill="#ccc">
+    <use xlink:href="/img/svg-sprite.svg#out"></use>
+  </svg>
+  <br />
+  <svg class="ico-svg ico-svg--paper" width="40" height="40" fill="#111">
+    <use xlink:href="/img/svg-sprite.svg#paper"></use>
+  </svg>
+</div>
+<!-- /End test block -->

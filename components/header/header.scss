@@ -1,0 +1,98 @@
+/* header */
+/***********************************************/
+.header {
+  $self: &;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: $theme_color_2;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @include res(md) {
+    grid-column-start: span 2;
+    flex-wrap: nowrap;
+  }
+
+  &__logo {
+    //margin-right: 40px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: $color_white;
+    background-color: $theme_color_4;
+
+    @include res(md) {
+      margin-right: 40px;
+      margin-bottom: 0;
+    }
+
+    &:hover,
+    &:focus {
+      outline: none;
+      background-color: darken($theme_color_4, 5%);
+    }
+
+    &:active {
+      background-color: darken($theme_color_4, 10%);
+    }
+  }
+
+  &__contact {
+    flex-grow: 1;
+    margin-right: 40px;
+    order: 1;
+    width: 100%;
+
+    @include res(md) {
+      order: 0;
+      width: auto;
+    }
+
+    &-phone {
+      margin-bottom: 5px;
+      text-decoration: none;
+      color: $color_white;
+      font-size: 24px;
+      line-height: 1;
+
+      &:focus,
+      &:hover {
+        color: darken($theme_color_4, 5%);
+        outline: none;
+      }
+
+      &:active {
+        color: darken($theme_color_4, 10%);
+      }
+    }
+
+    &-address {
+      color: $color_white;
+    }
+  }
+
+  &__callback {
+    margin-bottom: 20px;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: $color_white;
+    background-color: $theme_color_4;
+
+    @include res(md) {
+      margin-bottom: 0;
+    }
+
+    &:hover,
+    &:focus {
+      outline: none;
+      background-color: darken($theme_color_4, 5%);
+    }
+
+    &:active {
+      background-color: darken($theme_color_4, 10%);
+    }
+  }
+
+}

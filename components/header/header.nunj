@@ -1,0 +1,12 @@
+<!-- header block -->
+
+<header class="header">
+  <a class="header__logo" href="#">{{logo}}</a>
+  <div class="header__contact">
+    <a class="header__contact-phone" href="tel:{{phone}}">{{phone}}</a>
+    <div class="header__contact-address">{{address}}</div>
+  </div>
+  <a class="header__callback" href="#">{{callbacktext}}</a>
+</header>
+
+<!-- /End header block -->

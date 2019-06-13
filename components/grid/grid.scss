@@ -1,0 +1,16 @@
+/* grid */
+/***********************************************/
+.grid {
+  $self: &;
+
+  display: grid;
+
+  max-width: 960px;
+  margin: 0 auto;
+  grid-gap: 40px 0;
+  grid-template-columns: 100%;
+
+  @include res(md) {
+    grid-template-columns: minmax(280px, 640px) minmax(280px, 320px);
+  }
+}

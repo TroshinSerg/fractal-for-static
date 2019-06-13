@@ -1,0 +1,28 @@
+<!-- post block -->
+<article class="post">
+  <h1 class="post__title">Post heading</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis ex hic minima ratione? Accusantium amet
+    corporis doloribus et ex, hic impedit inventore iste mollitia officia placeat quae quidem quisquam repudiandae sit,
+    soluta tempora tempore. Atque, tenetur voluptate?</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ipsam laborum nisi odio optio quas repellat
+    suscipit voluptatibus. Ad aliquid aspernatur assumenda beatae blanditiis dicta distinctio ducimus expedita fugit
+    illo, impedit in, libero magni maiores necessitatibus nesciunt nostrum odio odit officia pariatur quod quos
+    repellendus reprehenderit sequi similique sint velit. Asperiores consequatur eum quas unde vero.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci consequatur dicta dolore. Aspernatur blanditiis
+    enim ex nobis quibusdam? Autem consequuntur corporis cupiditate neque numquam, praesentium recusandae saepe ullam
+    vel voluptatem. Iste molestiae nesciunt provident reprehenderit. Ab amet aperiam consequuntur, culpa dolor, ea
+    itaque odio pariatur quibusdam quisquam quo repellat soluta sunt! Consequuntur illum molestias nostrum perferendis
+    quis rerum velit?</p>
+  <h2>Post hading h2</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, magnam voluptatem. Aspernatur at commodi
+    delectus deleniti dolor dolores ducimus est ex facere facilis fugit hic impedit itaque labore libero nam, natus
+    nihil non officia porro quam qui quibusdam quidem quos saepe temporibus totam veritatis? Aut magni repellendus
+    saepe?</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo nihil provident vitae voluptatem. Aspernatur
+    eos exercitationem nesciunt ut? Ad esse laborum magni qui, repudiandae vel voluptas. Consectetur explicabo, maxime
+    nesciunt obcaecati sed tempore voluptatem? Aperiam consequuntur doloribus dolorum eveniet exercitationem fugiat,
+    illo, labore minus mollitia neque perferendis sit vero.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet atque, earum illum, magni minus mollitia, nisi
+    perspiciatis quas quis sapiente tempora unde. Debitis doloremque nam quod.</p>
+</article>
+<!-- /End post block -->

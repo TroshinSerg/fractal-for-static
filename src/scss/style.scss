@@ -1,0 +1,48 @@
+/*!
+   ####    #####    #####     ####     ###    #####    #######  ######
+  ##  ##  ##   ##  ##   ##   ##  ##   ## ##   ##  ##   ##       ##   ##
+ ##       ##       ##       ##       ##   ##  ##   ##  ##       ##   ##
+ ##        #####    #####   ##       ##   ##  ##   ##  #####    ######
+ ##            ##       ##  ##       ##   ##  ##   ##  ##       ## ##
+  ##  ##  ##   ##  ##   ##   ##  ##   ## ##   ##  ##   ##       ##  ##
+   ####    #####    #####     ####     ###    #####    #######  ##   ##
+https://csscoder.pro/
+*/
+
+@import "common/variable";
+@import "common/colors";
+@import "common/mixins/mixin";
+@import "common/typograph";
+@import "common/common";
+@import "common/ui/ui";
+
+//***************************************
+/* Base  */
+///***********************************************/
+.l-html,
+.l-body {
+  height: 100%;
+}
+
+.l-body {
+  color: $color_black;
+  background-color: $color_white;
+  font-family: $font_body;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.l-page {
+  overflow: hidden;
+  min-height: 100%;
+}
+
+///* include components */
+///***********************************************/
+@import "../../components/test/test";
+@import "../../components/aside/aside";
+@import "../../components/footer/footer";
+@import "../../components/header/header";
+@import "../../components/post/post";
+@import "../../components/grid/grid";

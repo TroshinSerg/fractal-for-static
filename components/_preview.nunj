@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html class="l-html">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="{{'/css/style.css' |  path  }}" />
+    <title>Preview Layout</title>
+  </head>
+  <body class="l-body">
+    {{ yield | safe }}
+    <script src="{{'/vendor/svg4everybody.min.js' |  path  }}"></script>
+    <script>
+      svg4everybody();
+    </script>
+  </body>
+</html>

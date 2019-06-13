@@ -1,0 +1,44 @@
+// Transition variants
+$transition_time: .2s;
+$transition_time_more: .4s;
+$transition_function: ease-in-out;
+
+// all
+@mixin tr($value) {
+  transition: $value $transition_time $transition_function;
+}
+
+@mixin tr_all {
+  transition: all $transition_time $transition_function;
+}
+
+// Border color
+@mixin tr_border_color {
+  transition: border-color $transition_time $transition_function;
+}
+
+// Opacity
+@mixin tr_opacity {
+  transition: opacity $transition_time $transition_function;
+}
+
+// BackgroundColor
+@mixin tr_bg_color {
+  transition: background-color $transition_time $transition_function;
+}
+
+// ColorText
+@mixin tr_color {
+  transition: color $transition_time $transition_function;
+}
+
+// boxshadow
+@mixin tr_shadow {
+  transition: box-shadow $transition_time $transition_function;
+}
+
+// width
+@mixin tr_width {
+  transition: width $transition_time $transition_function;
+}
+

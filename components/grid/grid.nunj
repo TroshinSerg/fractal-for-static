@@ -1,0 +1,8 @@
+<!-- grid block -->
+<div class="grid">
+  {% render '@header' %}
+  {% render '@post' %}
+  {% render '@aside' %}
+  {% render '@footer' %}
+</div>
+<!-- /End grid block -->

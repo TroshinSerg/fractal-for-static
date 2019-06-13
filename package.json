@@ -1,0 +1,50 @@
+{
+  "name": "test-fractal",
+  "title": "Fractal test",
+  "version": "0.1.0",
+  "dependencies": {
+    "@frctl/fractal": "^1.1.7",
+    "@frctl/nunjucks": "^2.0.1",
+    "autoprefixer": "^9.5.1",
+    "cross-env": "^5.2.0",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-jsbeautifier": "^3.0.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-svgmin": "^2.2.0",
+    "gulp-svgstore": "^7.0.1",
+    "lost": "^8.3.1",
+    "postcss": "^7.0.16",
+    "postcss-cli": "^6.1.2",
+    "postcss-scss": "^2.0.0",
+    "postcss-sorting": "^5.0.0",
+    "prettier": "^1.17.1",
+    "sass-lint": "^1.13.1"
+  },
+  "engines": {
+    "node": ">=10.13.0 < 10.15.4",
+    "npm": ">=6.4.0"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 2,
+    "overrides": [
+      {
+        "files": [
+          "*.scss",
+          "*.css"
+        ],
+        "options": {
+          "singleQuote": false
+        }
+      }
+    ]
+  },
+  "author": "Aleksandr Zidyganov <alex@csscoder.pro> (https://csscoder.pro/)",
+  "license": "MIT",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development gulp",
+    "build": "cross-env NODE_ENV=production gulp build"
+  }
+}

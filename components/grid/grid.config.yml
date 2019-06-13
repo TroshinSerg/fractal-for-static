@@ -1,0 +1,6 @@
+# ready, wip and prototype.
+# block is done => status: 'ready'
+# block is development => status: 'wip' (work in progress)
+
+title: 'Component'
+status: 'ready'

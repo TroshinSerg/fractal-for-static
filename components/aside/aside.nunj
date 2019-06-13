@@ -1,0 +1,26 @@
+<!-- aside block -->
+<aside class="aside">
+  <div class="aside__box">
+    <h2 class="aside__box-title">Lorem ipsum dolor.</h2>
+    <form class="aside__form" action="#" method="post">
+      <label class="aside__label">
+        <input class="aside__box-field field" type="search" name="searchword" placeholder="search">
+      </label>
+    </form>
+  </div>
+  <div class="aside__box">
+    <h2 class="aside__box-title">Lorem ipsum.</h2>
+    <ul class="aside__box-list">
+      <li class="aside__box-item">
+        <a class="aside__box-link" href="#">Lorem ipsum dolor.</a>
+      </li>
+      <li class="aside__box-item">
+        <a class="aside__box-link" href="#">Expedita, incidunt, quod?</a>
+      </li>
+      <li class="aside__box-item">
+        <a class="aside__box-link" href="#">Debitis, inventore odit!</a>
+      </li>
+    </ul>
+  </div>
+</aside>
+<!-- /End aside block -->

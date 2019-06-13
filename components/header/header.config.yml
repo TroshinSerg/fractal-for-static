@@ -1,0 +1,11 @@
+# ready, wip and prototype.
+# block is done => status: 'ready'
+# block is development => status: 'wip' (work in progress)
+
+title: 'Component'
+status: 'wip'
+context:
+  logo: "Logo"
+  phone: "8 800 400 24 24"
+  address: "119049 г. Москва, ул. Донская, д. 8 стр. 1"
+  callbacktext: "Заказать звонок"

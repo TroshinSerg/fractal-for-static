@@ -1,0 +1,29 @@
+/* test */
+/***********************************************/
+.test {
+  $self: &;
+
+  $red: #f00;
+  $black: #000;
+
+  &__title {
+    height: 100px;
+    margin: 20px;
+    color: $red;
+
+    background-image: url("/img/android-chrome-192x192.png");
+    box-shadow: 0 0 10px rgba($black, .2);
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 32px;
+  }
+
+  &__rrr {
+    font-size: 18px;
+    line-height: 1;
+  }
+
+  &__ttto {
+    background-image: url("/img/android-chrome-192x192.png");
+  }
+}

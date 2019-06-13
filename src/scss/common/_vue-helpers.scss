@@ -1,0 +1,18 @@
+// for vue.js elements
+[v-cloak] {
+  display: none;
+  opacity: 0;
+}
+
+/* vue transition */
+/***********************************************/
+// fade
+.fade-enter-active,
+.fade-leave-active {
+  @include tr_opacity;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}

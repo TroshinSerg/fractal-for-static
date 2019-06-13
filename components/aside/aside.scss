@@ -1,0 +1,82 @@
+/* aside */
+/***********************************************/
+.aside {
+  $self: &;
+
+  width: 100%;
+
+  padding: 0 20px;
+
+  @include res(md) {
+    max-width: 320px;
+  }
+
+  &__box {
+    margin-bottom: 40px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &-title {
+      margin: 0 -20px 20px;
+      padding: 12px 20px;
+      text-transform: uppercase;
+      color: $color_white;
+      background-color: $theme_color_5;
+      font-size: 14px;
+      line-height: 1.3;
+    }
+
+    &-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    &-item {
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &-link {
+      text-decoration: none;
+      color: $theme_color_2;
+      line-height: 1.3;
+
+
+      &:hover,
+      &:focus {
+        text-decoration: underline;
+        color: darken($theme_color_2, 5%);
+        outline: none;
+      }
+
+      &:active {
+        color: darken($theme_color_2, 10%);
+      }
+    }
+
+    &-label {
+      display: block;
+    }
+
+    &-field {
+      display: block;
+      width: 100%;
+      padding: 12px 10px;
+      border: solid 2px $theme_color_5;
+
+      &:hover,
+      &:focus {
+        border-color: darken($theme_color_5, 10%);
+        outline: none;
+      }
+
+
+    }
+  }
+}

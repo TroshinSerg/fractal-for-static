@@ -1,0 +1,28 @@
+<!-- footer block -->
+<footer class="footer">
+  <a class="footer__logo" href="#">Logo</a>
+  <div class="footer__navs">
+    <div class="footer__menu">
+      <div class="footer__menu-title">Lorem ipsum.</div>
+      <ul class="footer__menu-list">
+        <li class="footer__menu-item">Lorem ipsum.</li>
+        <li class="footer__menu-item">Eaque, optio.</li>
+        <li class="footer__menu-item">Omnis, reprehenderit!</li>
+        <li class="footer__menu-item">Autem, porro.</li>
+        <li class="footer__menu-item">Explicabo, laudantium.</li>
+      </ul>
+    </div>
+    <div class="footer__menu">
+      <div class="footer__menu-title">Lorem ipsum.</div>
+      <ul class="footer__menu-list">
+        <li class="footer__menu-item">Lorem ipsum.</li>
+        <li class="footer__menu-item">Eaque, optio.</li>
+        <li class="footer__menu-item">Omnis, reprehenderit!</li>
+        <li class="footer__menu-item">Autem, porro.</li>
+        <li class="footer__menu-item">Explicabo, laudantium.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer__copyright">&copy; TestProject 2019. All rights reserved</div>
+</footer>
+<!-- /End footer block -->
