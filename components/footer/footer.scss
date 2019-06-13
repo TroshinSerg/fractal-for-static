@@ -1,9 +1,6 @@
 /* footer */
 /***********************************************/
 .footer {
-  display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
   @include res(sm) {
     display: flex;
     align-items: flex-start;
@@ -15,19 +12,22 @@
   }
 
   $self: &;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
 
   padding: 40px 20px 20px;
   background-color: $theme_color_2;
 
 
   &__logo {
-    margin-right: 40px;
 
     @include res(sm) {
       margin-right: 100px;
     }
 
     display: inline-block;
+    margin-right: 40px;
     margin-bottom: 40px;
     padding: 10px 30px;
     vertical-align: top;
@@ -48,21 +48,13 @@
   }
 
   &__navs {
+    display: flex;
     flex-grow: 1;
     margin-bottom: 40px;
-    display: flex;
-    @include res(sm) {
-      //width: 100%;
-      //display: flex;
-    }
   }
 
   &__menu {
-    margin-right: 40px;
 
-    &:last-child {
-      margin-right: 0;
-    }
     @include res(sm) {
       width: auto;
       margin-right: 80px;
@@ -71,9 +63,11 @@
         margin-right: 0;
       }
     }
-    //width: 45%;
+    margin-right: 40px;
 
-    //margin-bottom: 40px;
+    &:last-child {
+      margin-right: 0;
+    }
 
     &-title {
       margin-bottom: 10px;
