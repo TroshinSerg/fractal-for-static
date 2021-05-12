@@ -15,7 +15,7 @@
     "gulp-svgmin": "^2.2.0",
     "gulp-svgstore": "^7.0.1",
     "lost": "^8.3.1",
-    "postcss": "^7.0.16",
+    "postcss": "^8.2.10",
     "postcss-cli": "^6.1.2",
     "postcss-scss": "^2.0.0",
     "postcss-sorting": "^5.0.0",
